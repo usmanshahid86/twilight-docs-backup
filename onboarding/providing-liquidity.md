@@ -40,17 +40,28 @@ All yields are denominated in **BTC**, giving LPs direct bitcoin-denominated ret
 
 1. **Navigate to the Lend Page**\
    [https://frontend.twilight.rest/lend](https://frontend.twilight.rest/lend)
+
+<figure><img src="../.gitbook/assets/Lend Page.png" alt=""><figcaption></figcaption></figure>
+
 2. **Connect Your Keplr Wallet**\
    Ensure your wallet is connected to the **Twilight Testnet** and funded with NYKS and BTC test tokens.
 3. **Select Asset and Amount**\
    Choose the token (BTC or NYKS) you wish to deposit.\
    The available balance will appear automatically.
+
+<figure><img src="../.gitbook/assets/Add Liquidity.png" alt=""><figcaption></figcaption></figure>
+
 4. **Confirm Deposit**\
    Click **Provide Liquidity** and approve the transaction in Keplr.\
    Once confirmed, your assets are added to the Twilight Pool.
+
+<div align="left"><figure><img src="../.gitbook/assets/Confirm Lend Deposit.png" alt="" width="178"><figcaption></figcaption></figure></div>
+
 5. **Track Pool Share**\
    After deposit, you receive **LP tokens** representing your share of the pool.\
    These can be viewed and redeemed anytime from the **Lend Dashboard**.
+
+<figure><img src="../.gitbook/assets/Pool Share.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -60,7 +71,12 @@ To withdraw:
 
 1. Go to the **Lend** page.
 2. Click **Withdraw** next to your active position.
-3. Enter the amount to withdraw and confirm in Keplr.
+
+<figure><img src="../.gitbook/assets/Withdraw.png" alt=""><figcaption></figcaption></figure>
+
+3. Confirm in Keplr.
+
+<div align="left"><figure><img src="../.gitbook/assets/Confirm Withdraw.png" alt="" width="177"><figcaption></figcaption></figure></div>
 
 Withdrawals return your principal plus accumulated yield (if any) directly to your **Funding Account**.
 
