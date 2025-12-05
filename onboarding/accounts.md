@@ -40,6 +40,8 @@ The **Wallet page** in the Twilight frontend acts as your control panel:
 * **Transfer funds** between Funding and Trading accounts.
 * **Monitor open positions** linked to each trading account.
 
+<figure><img src="../.gitbook/assets/Wallet Page.png" alt=""><figcaption></figcaption></figure>
+
 All transactions are signed through your connected Keplr wallet, ensuring full custody of funds.
 
 ***
@@ -48,8 +50,14 @@ All transactions are signed through your connected Keplr wallet, ensuring full c
 
 1. Connect your Keplr wallet.
 2. Deposit testBTC or NYKS into your Funding Account.
-3. From the Wallet page, select **“Create Trading Account.”**
+3. From the Wallet page, click on the bi-directional arrow icon on the Funding Account&#x20;
+
+<figure><img src="../.gitbook/assets/Funding.png" alt=""><figcaption></figcaption></figure>
+
 4. Transfer funds from the Funding Account to the new Trading Account.
+
+<figure><img src="../.gitbook/assets/Transfer Dialog.png" alt=""><figcaption></figcaption></figure>
+
 5. Use that account to open perpetual trades privately on the exchange.
 
 Each Trading Account maintains:
