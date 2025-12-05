@@ -70,6 +70,8 @@ Twilight currently supports passports issued by the following countries:
 
 Look for the **region verification indicator** in the top-right banner of the Twilight interface. &#x20;
 
+<div align="left"><figure><img src="../.gitbook/assets/Unverified.png" alt="" width="284"><figcaption></figcaption></figure></div>
+
 &#x20;  — When **red**, it means your address has **not yet been verified**. &#x20;
 
 &#x20;  — Click the indicator to open the **Region Verification page**, which provides full step-by-step instructions. &#x20;
@@ -85,6 +87,8 @@ You’ll be prompted to select between:
 * **Self.xyz**
 * **ZK Passport**
 
+<figure><img src="../.gitbook/assets/Verification Choose.png" alt=""><figcaption></figcaption></figure>
+
 Choose the provider you prefer.
 
 #### 3. Scan the QR Code
@@ -96,6 +100,8 @@ If using **Self.xyz**:
 3. Follow the on-screen instructions in the app to verify your passport country.
 4. Keep the Twilight tab open until verification completes.
 
+<figure><img src="../.gitbook/assets/Verification.png" alt=""><figcaption></figcaption></figure>
+
 If using **ZK Passport**, follow the same process through the ZK Passport app.
 
 #### 4. Confirmation
@@ -104,6 +110,9 @@ When verification succeeds:
 
 * The **red indicator** changes to green.
 * Your Twilight address is tagged as region-verified.
+
+<figure><img src="../.gitbook/assets/Verified.png" alt=""><figcaption></figcaption></figure>
+
 * You can proceed to trading, or providing liquidity.
 
 > ⚠️ Verification is tied to each address or subaccount. Repeat if you use multiple addresses.
