@@ -25,6 +25,9 @@ Twilight currently supports the **Keplr browser extension** for Testnet access. 
 1. Go to [https://frontend.twilight.rest](https://frontend.twilight.rest).
 2. Click **Connect Wallet** in the upper-right corner.
 3. Keplr will prompt you to **Add Twilight Testnet chain**.
+
+<div align="left"><figure><img src="../.gitbook/assets/Keplr Twilight Testnet Add (1).png" alt="" width="353"><figcaption></figcaption></figure></div>
+
 4. Review the chain details (chain ID, RPC, currency).
 5. Click **Approve** to add the network.
 6. Keplr will automatically switch to the **Twilight Testnet** once approved.
@@ -44,13 +47,18 @@ Before you can trade or provide liquidity, your wallet needs two types of test t
 
 #### Claim Tokens from the Faucet
 
-1. Open the [Faucet](https://frontend.twilight.rest/faucet) page on the Twilight frontend.
+1. Open the [Faucet](https://frontend.twilight.rest/faucet) page on the Twilight Top Menu.
+
+<figure><img src="../.gitbook/assets/Faucet open.png" alt=""><figcaption></figcaption></figure>
+
 2. Connect your Keplr wallet if not already connected.
 3. Click **Get NYKS Tokens** to receive your initial gas balance.
 4. Once confirmed, click **Register BTC Address** to create and register your SATS public key.
    * Do not refresh or close the page during this step.
    * Approve the transaction in Keplr when prompted.
 5. After the BTC address registration completes, click **Get SATS Tokens** to receive your testnet SATS balance.
+
+<figure><img src="../.gitbook/assets/Faucet Success.png" alt=""><figcaption></figcaption></figure>
 
 Transactions are processed quickly. Within seconds, your wallet will show both NYKS and SATS balances.
 
@@ -61,6 +69,9 @@ Transactions are processed quickly. Within seconds, your wallet will show both N
 Once you have claimed your tokens:
 
 1. Go to the [Wallet](https://frontend.twilight.rest/wallet) page.
+
+<figure><img src="../.gitbook/assets/Wallet After Faucet.png" alt=""><figcaption></figcaption></figure>
+
 2. You’ll see your total available NYKS (for gas) and SATS (for trading).
 3. These testnet tokens will allow you to explore Twilight’s exchange and liquidity pool features.
 
