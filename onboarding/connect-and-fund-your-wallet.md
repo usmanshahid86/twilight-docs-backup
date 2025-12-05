@@ -58,6 +58,8 @@ Before you can trade or provide liquidity, your wallet needs two types of test t
    * Approve the transaction in Keplr when prompted.
 5. After the BTC address registration completes, click **Get SATS Tokens** to receive your testnet SATS balance.
 
+<figure><img src="../.gitbook/assets/Get BTC.png" alt=""><figcaption></figcaption></figure>
+
 <figure><img src="../.gitbook/assets/Faucet Success.png" alt=""><figcaption></figcaption></figure>
 
 Transactions are processed quickly. Within seconds, your wallet will show both NYKS and SATS balances.
