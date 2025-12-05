@@ -27,6 +27,8 @@ The **Trading page** allows you to:
 * Open **Long** or **Short** positions.
 * Monitor active trades and realized PnL privately.
 
+<figure><img src="../.gitbook/assets/Trade.png" alt=""><figcaption></figcaption></figure>
+
 Each trade interacts with the **Twilight Pool**, not an order book.\
 Liquidity providers back the pool, and all trades are settled directly against it — this design eliminates traditional matching, reduces slippage, and ensures deterministic settlement.
 
@@ -36,11 +38,16 @@ Liquidity providers back the pool, and all trades are settled directly against i
 
 1. Navigate to the **Trade** page on the frontend:\
    [https://frontend.twilight.rest/trade](https://frontend.twilight.rest/trade)
-2. Select a trading pair (e.g., **BTC/USDT**).
-3. Choose **Long** or **Short**.
-4. Enter your trade size (in BTC) and desired leverage.
-5. Review position summary — collateral, liquidation price, and PnL are shown privately.
-6. Click **Open Position** and approve the transaction in Keplr.
+2. Select in the Orders form for **Market Order** or **Limit Order.**
+
+<div align="left"><figure><img src="../.gitbook/assets/Market Order.png" alt="" width="352"><figcaption></figcaption></figure></div>
+
+<div align="left"><figure><img src="../.gitbook/assets/Limit Order.png" alt="" width="360"><figcaption></figcaption></figure></div>
+
+1. Enter your trade size (in BTC) and desired leverage.
+2. Review position summary — collateral, liquidation price, and PnL are shown privately.
+3. Click **Buy** to go long or **Sell to go short**.
+4. Approve the transaction (only if needed).
 
 Once confirmed:
 
@@ -50,11 +57,25 @@ Once confirmed:
 
 ***
 
-### Managing Open Positions
+### Order and Position Details
 
-After opening a position, you can monitor and adjust it from the **Positions** tab.
+The Details Card is where you will find all the information on all current and past orders and positions.
+
+If you opened a limit position that has not been filled, you can monitor and adjust it from the **Open Orders** tab.
+
+<figure><img src="../.gitbook/assets/Open Orders.png" alt=""><figcaption></figcaption></figure>
+
+If your position has been filled, you can view the **Positions** tab to see your active positions.
+
+<figure><img src="../.gitbook/assets/Open Position.png" alt=""><figcaption></figcaption></figure>
+
+Both open orders (marked as pending) and filled orders can be found in the Order History tab.
+
+<figure><img src="../.gitbook/assets/Order History.png" alt=""><figcaption></figcaption></figure>
 
 #### View Details
+
+You can view the following details of your orders, updated in real time:
 
 * **Entry Price** – average execution price.
 * **Mark Price** – current reference price.
@@ -64,9 +85,12 @@ After opening a position, you can monitor and adjust it from the **Positions** t
 
 #### Adjust or Close
 
-* **Close Position** – partially or fully realize your trade.
-* **Add Margin** – increase collateral to reduce liquidation risk.
-* **Withdraw Margin** – free up unused collateral (where applicable).
+* **Close Market** – Close the position at the market price, usually executed immediately.&#x20;
+* **Close Limit** – Close the position at a certain price. For long positions, Twilight will attempt to close the position at a price that is equal to or above the limit price set.
+
+After closing a position, you will receive confirmation dialogs. You can also check the **Trade History** tab to see a history of all the completed trades.
+
+<figure><img src="../.gitbook/assets/Trade History.png" alt=""><figcaption></figcaption></figure>
 
 > ⚠️ When your health ratio drops below the minimum threshold, the position becomes eligible for liquidation.\
 > Liquidations are verified cryptographically via zk-proofs to prevent false triggers.
