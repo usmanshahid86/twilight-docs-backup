@@ -44,10 +44,10 @@ Liquidity providers back the pool, and all trades are settled directly against i
 
 <div align="left"><figure><img src="../.gitbook/assets/Limit Order.png" alt="" width="360"><figcaption></figcaption></figure></div>
 
-1. Enter your trade size (in BTC) and desired leverage.
-2. Review position summary — collateral, liquidation price, and PnL are shown privately.
-3. Click **Buy** to go long or **Sell to go short**.
-4. Approve the transaction (only if needed).
+3. Enter your trade size (in BTC) and desired leverage.
+4. Review position summary — collateral, liquidation price, and PnL are shown privately.
+5. Click **Buy** to go long or **Sell to go short**.
+6. Approve the transaction (only if needed).
 
 Once confirmed:
 
