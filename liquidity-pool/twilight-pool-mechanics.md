@@ -22,12 +22,13 @@ All deposits and settlements on the exchange are denominated in SATS — the BTC
 
 There are no transferable LP tokens in this phase; deposits are tracked internally, and balances can be withdrawn instantly when utilization allows.
 
-| Metric                    | Symbol                        | Description                                  |
-| ------------------------- | ----------------------------- | -------------------------------------------- |
-| Total Pool Value (TVL)    | Σ deposits\_btc               | Total BTC collateral supplied by LPs.        |
-| Total Trader Margin (TTM) | Σ trader\_margin\_locked\_btc | BTC margin locked for active positions.      |
-| Free Liquidity            | max(TVL − TTM, 0)             | BTC available for new trades or withdrawals. |
-| Utilization (U)           | TTM / TVL                     | Ratio of active exposure to total pool size. |
+| Metric                      | Symbol                         | Description                                  |
+| --------------------------- | ------------------------------ | -------------------------------------------- |
+| Total Pool Value (TVL)      | Σ deposits\_btc                | Total BTC collateral supplied by LPs.        |
+| Total Trader Margin (TTM)   | Σ trader\_margin\_locked\_btc  | BTC margin locked for active positions.      |
+| Total Amount Borrowed (TTM) | Σtrader\_margin\_borrowed\_btc | Total amount of BTC borrowed from the pool.  |
+| Free Liquidity              | max(TVL − TTM, 0)              | BTC available for new trades or withdrawals. |
+| Utilization (U)             | TAB / TVL                      | Ratio of active exposure to total pool size. |
 
 When utilization approaches the configured cap (U\_cap = 90%), new position openings are throttled until additional capital is added.
 
