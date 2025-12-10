@@ -188,4 +188,4 @@ This structure unifies traders and liquidity providers under one transparent, BT
 
 See also:
 
-[Pricing & Execution ](pricing-and-execution.md)· [Pool Mechanics](twilight-pool-mechanics.md) · [PnL & Settlement](pnl-and-settlement.md) · [Liquidations](margin-and-liquidations.md)
+[Pricing & Execution ](pricing-and-execution.md)· [Pool Mechanics](../liquidity-pool/twilight-pool-mechanics.md) · [PnL & Settlement](pnl-and-settlement.md) · [Liquidations](margin-and-liquidations.md)

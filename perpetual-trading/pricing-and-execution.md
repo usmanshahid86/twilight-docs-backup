@@ -105,4 +105,4 @@ Every order settles at the same globally verifiable mark, eliminating front-runn
 
 See also:
 
-[Pool Mechanics](twilight-pool-mechanics.md) · [Funding](fees-and-funding.md) · [PnL & Settlement](pnl-and-settlement.md) · [Liquidations](margin-and-liquidations.md)
+[Pool Mechanics](../liquidity-pool/twilight-pool-mechanics.md) · [Funding](fees-and-funding.md) · [PnL & Settlement](pnl-and-settlement.md) · [Liquidations](margin-and-liquidations.md)

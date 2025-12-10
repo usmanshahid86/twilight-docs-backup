@@ -87,7 +87,7 @@ Together they deliver a trustless, privacy-preserving exchange with deterministi
 
 ### Next Steps
 
-* [Twilight Pool Mechanics](twilight-pool-mechanics.md) → How liquidity is structured and returns are generated.
+* [Twilight Pool Mechanics](../liquidity-pool/twilight-pool-mechanics.md) → How liquidity is structured and returns are generated.
 * [Pricing & Oracle Design ](pricing-and-execution.md)→ Learn how Twilight maintains spot-based pricing without order books.
 * [Risk & Liquidation](risk-parameters.md) → Understand margin safety, liquidation triggers, and LP protection mechanisms.
 

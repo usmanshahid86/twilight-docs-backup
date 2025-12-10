@@ -13,6 +13,7 @@ Before trading, ensure that:
 * Your **Keplr wallet** is connected to the Twilight Testnet.
 * You’ve funded a **Trading Account** via the Wallet page.
 * You hold enough NYKS for gas fees (transactions are signed via Keplr).
+* You have been verified (you will be  prompted to do so before your first trade). Please see [zk-region-verification.md](zk-region-verification.md "mention")for more details.
 
 > 💡 All trades are executed through your Trading Account on zkOS — balances, PnL, and liquidation status are private and verifiable through zero-knowledge proofs.
 

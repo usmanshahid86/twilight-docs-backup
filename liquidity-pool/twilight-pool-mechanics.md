@@ -123,4 +123,4 @@ Its health defines the solvency, depth, and yield potential of the entire protoc
 
 See also:
 
-[Funding](fees-and-funding.md) · [Fees](fees-and-funding.md) · [Liquidations](margin-and-liquidations.md) · [Risk Parameters](risk-parameters.md)
+[Funding](../perpetual-trading/fees-and-funding.md) · [Fees](../perpetual-trading/fees-and-funding.md) · [Liquidations](../perpetual-trading/margin-and-liquidations.md) · [Risk Parameters](../perpetual-trading/risk-parameters.md)

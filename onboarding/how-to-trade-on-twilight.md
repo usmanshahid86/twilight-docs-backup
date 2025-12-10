@@ -67,7 +67,7 @@ Follow these next steps to set up your environment and start trading:
 
 * [Connect & Fund Your Wallet](connect-and-fund-your-wallet.md)
 * [Understand Accounts & Balances](accounts.md)
-* [Provide Liquidity (Optional)](providing-liquidity.md)
+* [Provide Liquidity (Optional)](../liquidity-pool/providing-liquidity.md)
 * [Troubleshooting & FAQs](../)
 
 > Note: All activity on the Twilight Testnet uses test tokens (SATS) — they carry _no real monetary value_.

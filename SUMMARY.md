@@ -9,16 +9,14 @@
 
 * [How to Trade on Twilight](onboarding/how-to-trade-on-twilight.md)
 * [Connect & Fund Your Wallet](onboarding/connect-and-fund-your-wallet.md)
+* [ZK Region Verification](onboarding/zk-region-verification.md)
 * [Accounts](onboarding/accounts.md)
 * [Making a Trade](onboarding/making-a-trade.md)
-* [Providing Liquidity](onboarding/providing-liquidity.md)
-* [ZK Region Verification](onboarding/zk-region-verification.md)
 * [FAQ & Common Issues](onboarding/faq-and-common-issues.md)
 
 ## Perpetual Trading
 
 * [Overview](perpetual-trading/overview.md)
-* [Twilight Pool Mechanics](perpetual-trading/twilight-pool-mechanics.md)
 * [Pricing & Execution](perpetual-trading/pricing-and-execution.md)
 * [Fees & Funding](perpetual-trading/fees-and-funding.md)
 * [Margin & Liquidations](perpetual-trading/margin-and-liquidations.md)
@@ -26,6 +24,11 @@
 * [Risk Parameters](perpetual-trading/risk-parameters.md)
 * [Governance & Treasury](perpetual-trading/governance-and-treasury.md)
 * [Privacy Architecture](perpetual-trading/privacy-architecture.md)
+
+## Liquidity Pool
+
+* [Twilight Pool Mechanics](liquidity-pool/twilight-pool-mechanics.md)
+* [Providing Liquidity](liquidity-pool/providing-liquidity.md)
 
 ## Developer Portal
 
