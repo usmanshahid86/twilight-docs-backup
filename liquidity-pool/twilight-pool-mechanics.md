@@ -6,7 +6,7 @@
 
 ### 1. Overview
 
-The Twilight Liquidity Pool is the backbone of the protocol’s trading engine — a single BTC-denominated capital base that powers all leveraged trading on the platform.
+The Twilight Liquidity Pool is a democratized liquidity pool to which anyone can provide liquidity and share in the LP rewards. It is the backbone of the protocol’s trading engine — a single BTC-denominated capital base that powers all leveraged trading on the platform.
 
 Every position opened on Twilight, whether long or short, is executed against this shared pool, not against another trader or AMM curve.
 
