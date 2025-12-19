@@ -52,12 +52,11 @@ Before you can trade or provide liquidity, your wallet needs two types of test t
 <figure><img src="../.gitbook/assets/Faucet open.png" alt=""><figcaption></figcaption></figure>
 
 2. Connect your Keplr wallet if not already connected.
-3. You may be asked to verify your geographic region. Please see [#why-region-verification-matters](zk-region-verification.md#why-region-verification-matters "mention")for details.
-4. Click **Get NYKS Tokens** to receive your initial gas balance.
-5. Once confirmed, click **Register BTC Address** to create and register your SATS public key.
+3. Click **Get NYKS Tokens** to receive your initial gas balance.
+4. Once confirmed, click **Register BTC Address** to create and register your SATS public key.
    * Do not refresh or close the page during this step.
    * Approve the transaction in Keplr when prompted.
-6. After the BTC address registration completes, click **Get SATS Tokens** to receive your testnet SATS balance.
+5. After the BTC address registration completes, click **Get SATS Tokens** to receive your testnet SATS balance.
 
 <figure><img src="../.gitbook/assets/Get BTC.png" alt=""><figcaption></figcaption></figure>
 

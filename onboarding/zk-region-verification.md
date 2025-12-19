@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # ZK Region Verification
 
 ## Zero-Knowledge Region Verification
